@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "techdocDemo"
+  description: "asdf"
+  annotations:
+    github.com/project-slug: Fasttrack-Dev/backstage-dooku-demo
+    backstage.io/techdocs-ref: url:https://github.com/Fasttrack-Dev/backstage-dooku-demo
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Poseidon"
